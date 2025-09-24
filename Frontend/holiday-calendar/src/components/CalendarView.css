@@ -1,0 +1,268 @@
+
+.calendar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls select,
+.controls button {
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  border: 1px solid #1fe647;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.controls select {
+  background-color: #ffffff;
+}
+
+.controls button {
+  background-color: #4ab917;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.holiday-names {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.75rem;
+  color: #d63447;
+  font-weight: 500;
+}
+
+.holiday-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.light-green-week {
+  background-color: #d4edda;
+  transition: background-color 0.4s ease;
+}
+
+.dark-green-week {
+  background-color: #28a745;
+  color: #fff;
+  transition: background-color 0.4s ease;
+}
+
+.today {
+  border: 2px solid #ff4757;
+  border-radius: 50%;
+  font-weight: 600;
+  color: #ff4757 !important;
+}
+
+
+.error {
+  text-align: center;
+  margin: 25px 0;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ff6b6b;
+}
+
+.quarter-view {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.react-calendar {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.react-calendar__tile {
+  transition: transform 0.2s, background 0.3s;
+}
+
+.react-calendar__tile:hover {
+  transform: scale(1.05);
+  background-color: #e3f2fd;
+}
+
+@media (max-width: 900px) {
+  .quarter-view {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .controls {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Circular loader */
+.loader {
+  border: 6px solid #f3f3f3; /* Light gray background */
+  border-top: 6px solid #007bff; /* Blue foreground */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 30px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #1e1e2f;
+  color: #e0e0e0;
+}
+
+.dark-mode h2 {
+  color: #ffffff;
+}
+
+.dark-mode .controls select,
+.dark-mode .controls button {
+  background-color: #2c2c3a;
+  color: #e0e0e0;
+  border: 1px solid #555;
+}
+
+.dark-mode .controls button:hover {
+  background-color: #44445a;
+}
+
+.dark-mode .react-calendar {
+  background-color: #2c2c3a;
+  color: #e0e0e0;
+}
+
+.dark-mode .react-calendar__tile {
+  background-color: #2c2c3a;
+  color: #e0e0e0;
+}
+
+.dark-mode .react-calendar__tile:hover {
+  background-color: #3a3a50;
+}
+
+.dark-mode .light-green-week {
+  background-color: #4caf70; /* lighter green in dark mode */
+}
+
+.dark-mode .dark-green-week {
+  background-color: #1b5e20; /* darker green in dark mode */
+}
+
+.dark-mode .today {
+  border: 2px solid #0f0fec;
+  color: #1410f8 !important;
+}
+
+.dark-mode .holiday-label {
+  color: #1511ea;
+}
+
+
+.calendar-wrapper {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically if needed */
+  margin: 0 auto 20px auto;
+  width: 100%;
+}
+/* Monthly calendar full width */
+.monthly-calendar {
+  width: 100%;
+  max-width: 700px; /* You can adjust this */
+  margin: 0 auto;
+}
+
+.calendar-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(3, 10, 15, 0.893); /* Added box shadow */
+  transition: all 0.3s ease;
+}
+
+.dark-mode.calendar-container {
+  background-color: #1e1e2f;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Dark mode shadow */
+}
+
+.today-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+/* Increase calendar tile size */
+.react-calendar__tile {
+  height: 80px;           /* increase height */
+  max-height: 80px;
+  padding: 5px;
+  font-size: 0.8rem;      /* slightly larger text */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* keep holidays at top */
+  align-items: center;
+  transition: transform 0.2s, background 0.3s;
+}
+
+
+
+
+/* Make holiday names more readable */
+.holiday-names {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.65rem;  /* slightly larger for clarity */
+  color: #1c19e7;
+  font-weight: 500;
+  text-align: center;
+  white-space: normal;  /* wrap text if needed */
+  word-break: break-word;
+}
+
+.react-calendar{
+    width:100%;
+}
