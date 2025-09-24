@@ -1,0 +1,540 @@
+{
+  "country": "IN",
+  "year": "2025",
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-01-01",
+          "name": "New Year's Day"
+        },
+        {
+          "date": "2025-01-02",
+          "name": "Last day of Hanukkah"
+        },
+        {
+          "date": "2025-12-31",
+          "name": "New Year's Eve"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-01-06",
+          "name": "Guru Govind Singh Jayanti"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-01-13",
+          "name": "Lohri"
+        },
+        {
+          "date": "2025-01-14",
+          "name": "Pongal"
+        },
+        {
+          "date": "2025-01-14",
+          "name": "Makar Sankranti"
+        },
+        {
+          "date": "2025-01-14",
+          "name": "Hazarat Ali's Birthday"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-01-26",
+          "name": "Republic Day"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-01-29",
+          "name": "Lunar New Year"
+        },
+        {
+          "date": "2025-02-02",
+          "name": "Vasant Panchami"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-02-12",
+          "name": "Guru Ravidas Jayanti"
+        },
+        {
+          "date": "2025-02-14",
+          "name": "Valentine's Day"
+        }
+      ]
+    },
+    {
+      "weekNumber": 8,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-02-19",
+          "name": "Shivaji Jayanti"
+        },
+        {
+          "date": "2025-02-23",
+          "name": "Maharishi Dayanand Saraswati Jayanti"
+        }
+      ]
+    },
+    {
+      "weekNumber": 9,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-02-26",
+          "name": "Maha Shivaratri/Shivaratri"
+        },
+        {
+          "date": "2025-03-02",
+          "name": "Ramadan Start"
+        }
+      ]
+    },
+    {
+      "weekNumber": 11,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-03-13",
+          "name": "Holika Dahana"
+        },
+        {
+          "date": "2025-03-14",
+          "name": "Holi"
+        },
+        {
+          "date": "2025-03-14",
+          "name": "Dolyatra"
+        }
+      ]
+    },
+    {
+      "weekNumber": 12,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-03-20T14:31:21+05:30",
+          "name": "March Equinox"
+        }
+      ]
+    },
+    {
+      "weekNumber": 13,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-03-28",
+          "name": "Jamat Ul-Vida"
+        },
+        {
+          "date": "2025-03-30",
+          "name": "Chaitra Sukhladi"
+        },
+        {
+          "date": "2025-03-30",
+          "name": "Ugadi"
+        },
+        {
+          "date": "2025-03-30",
+          "name": "Gudi Padwa"
+        }
+      ]
+    },
+    {
+      "weekNumber": 14,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-03-31",
+          "name": "Ramzan Id"
+        },
+        {
+          "date": "2025-04-06",
+          "name": "Rama Navami"
+        }
+      ]
+    },
+    {
+      "weekNumber": 15,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-04-10",
+          "name": "Mahavir Jayanti"
+        },
+        {
+          "date": "2025-04-13",
+          "name": "First day of Passover"
+        },
+        {
+          "date": "2025-04-13",
+          "name": "Vaisakhi"
+        }
+      ]
+    },
+    {
+      "weekNumber": 16,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-04-14",
+          "name": "Mesadi"
+        },
+        {
+          "date": "2025-04-14",
+          "name": "Ambedkar Jayanti"
+        },
+        {
+          "date": "2025-04-15",
+          "name": "Bahag Bihu/Vaisakhadi"
+        },
+        {
+          "date": "2025-04-17",
+          "name": "Maundy Thursday"
+        },
+        {
+          "date": "2025-04-18",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2025-04-20",
+          "name": "Easter Day"
+        }
+      ]
+    },
+    {
+      "weekNumber": 18,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-05-01",
+          "name": "International Worker's Day"
+        }
+      ]
+    },
+    {
+      "weekNumber": 19,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-05-09",
+          "name": "Birthday of Rabindranath"
+        },
+        {
+          "date": "2025-05-11",
+          "name": "Mothers' Day"
+        }
+      ]
+    },
+    {
+      "weekNumber": 20,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-05-12",
+          "name": "Buddha Purnima/Vesak"
+        }
+      ]
+    },
+    {
+      "weekNumber": 23,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-06-07",
+          "name": "Bakrid"
+        }
+      ]
+    },
+    {
+      "weekNumber": 24,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-06-15",
+          "name": "Fathers' Day"
+        }
+      ]
+    },
+    {
+      "weekNumber": 25,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-06-21T08:12:15+05:30",
+          "name": "June Solstice"
+        }
+      ]
+    },
+    {
+      "weekNumber": 26,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-06-27",
+          "name": "Rath Yatra"
+        }
+      ]
+    },
+    {
+      "weekNumber": 27,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-07-06",
+          "name": "Muharram/Ashura"
+        }
+      ]
+    },
+    {
+      "weekNumber": 28,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-07-10",
+          "name": "Guru Purnima"
+        }
+      ]
+    },
+    {
+      "weekNumber": 31,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-08-03",
+          "name": "Friendship Day"
+        }
+      ]
+    },
+    {
+      "weekNumber": 32,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-08-09",
+          "name": "Raksha Bandhan (Rakhi)"
+        }
+      ]
+    },
+    {
+      "weekNumber": 33,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-08-15",
+          "name": "Independence Day"
+        },
+        {
+          "date": "2025-08-15",
+          "name": "Janmashtami (Smarta)"
+        },
+        {
+          "date": "2025-08-15",
+          "name": "Parsi New Year"
+        },
+        {
+          "date": "2025-08-16",
+          "name": "Janmashtami"
+        }
+      ]
+    },
+    {
+      "weekNumber": 35,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-08-27",
+          "name": "Ganesh Chaturthi/Vinayaka Chaturthi"
+        }
+      ]
+    },
+    {
+      "weekNumber": 36,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-09-05",
+          "name": "Milad un-Nabi/Id-e-Milad"
+        },
+        {
+          "date": "2025-09-05",
+          "name": "Onam"
+        }
+      ]
+    },
+    {
+      "weekNumber": 39,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-09-22",
+          "name": "First Day of Sharad Navratri"
+        },
+        {
+          "date": "2025-09-22T23:49:22+05:30",
+          "name": "September Equinox"
+        },
+        {
+          "date": "2025-09-28",
+          "name": "First Day of Durga Puja Festivities"
+        }
+      ]
+    },
+    {
+      "weekNumber": 40,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-09-29",
+          "name": "Maha Saptami"
+        },
+        {
+          "date": "2025-09-30",
+          "name": "Maha Ashtami"
+        },
+        {
+          "date": "2025-10-01",
+          "name": "Maha Navami"
+        },
+        {
+          "date": "2025-10-02",
+          "name": "Mahatma Gandhi Jayanti"
+        },
+        {
+          "date": "2025-10-02",
+          "name": "Dussehra"
+        }
+      ]
+    },
+    {
+      "weekNumber": 41,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-10-07",
+          "name": "Maharishi Valmiki Jayanti"
+        },
+        {
+          "date": "2025-10-10",
+          "name": "Karaka Chaturthi (Karva Chauth)"
+        }
+      ]
+    },
+    {
+      "weekNumber": 43,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-10-20",
+          "name": "Naraka Chaturdasi"
+        },
+        {
+          "date": "2025-10-20",
+          "name": "Diwali/Deepavali"
+        },
+        {
+          "date": "2025-10-22",
+          "name": "Govardhan Puja"
+        },
+        {
+          "date": "2025-10-23",
+          "name": "Bhai Duj"
+        }
+      ]
+    },
+    {
+      "weekNumber": 44,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-10-28",
+          "name": "Chhat Puja (Pratihar Sashthi/Surya Sashthi)"
+        },
+        {
+          "date": "2025-10-31",
+          "name": "Halloween"
+        }
+      ]
+    },
+    {
+      "weekNumber": 45,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-11-05",
+          "name": "Guru Nanak Jayanti"
+        }
+      ]
+    },
+    {
+      "weekNumber": 48,
+      "highlight": "lightgreen",
+      "holidays": [
+        {
+          "date": "2025-11-24",
+          "name": "Guru Tegh Bahadur's Martyrdom Day"
+        }
+      ]
+    },
+    {
+      "weekNumber": 51,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-12-15",
+          "name": "First Day of Hanukkah"
+        },
+        {
+          "date": "2025-12-21T20:33:05+05:30",
+          "name": "December Solstice"
+        }
+      ]
+    },
+    {
+      "weekNumber": 52,
+      "highlight": "darkgreen",
+      "holidays": [
+        {
+          "date": "2025-12-22",
+          "name": "Last day of Hanukkah"
+        },
+        {
+          "date": "2025-12-24",
+          "name": "Christmas Eve"
+        },
+        {
+          "date": "2025-12-25",
+          "name": "Christmas"
+        }
+      ]
+    }
+  ]
+}
